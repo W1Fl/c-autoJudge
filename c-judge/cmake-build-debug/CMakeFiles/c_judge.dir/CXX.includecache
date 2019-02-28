@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/86182/Desktop/c-judge/dir.h
+string
+-
+cstring
+-
+io.h
+-
+
+C:/Users/86182/Desktop/c-judge/main.cpp
+cstdio
+-
+cstdlib
+-
+cstring
+-
+windows.h
+-
+iostream
+-
+process.h
+C:/Users/86182/Desktop/c-judge/process.h
+dir.h
+C:/Users/86182/Desktop/c-judge/dir.h
+
+C:/Users/86182/Desktop/c-judge/process.h
+windows.h
+-
+cstdio
+-
+windows.h
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+
